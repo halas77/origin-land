@@ -3,7 +3,7 @@
 export const nav_links = [
   { href: "/", key: "home", label: "Home" },
   { href: "/services", key: "services", label: "Services" },
-  { href: "/projects", key: "projects ", label: "Projects " },
+  { href: "/products", key: "products ", label: "Products " },
   { href: "/about", key: "about ", label: "About Us" },
 ];
 
@@ -46,18 +46,19 @@ export const product_data = [
     desc: "We do all the harvest procedures and actions to deliver you the highest quality farm products.",
   },
   {
-    img: "/coffee.jpg",
+    img: "/coffee1.jpg",
     title: "Ethiopian Coffee",
     desc: "We habit skilled man power & machines to clean, wash, sort, grade & package our agricultural product.",
+  },
+
+  {
+    img: "/pulse.jpg",
+    title: "Pulses ",
+    desc: "We always make sure our products both satisfy your needs and provide the best value possible.",
   },
   {
     img: "/tdi.jpg",
     title: "TDI ",
     desc: "We habit skilled man power & machines to clean, wash, sort, grade & package our agricultural product.",
-  },
-  {
-    img: "/pulses.jpg",
-    title: "Pulses ",
-    desc: "We always make sure our products both satisfy your needs and provide the best value possible.",
   },
 ];

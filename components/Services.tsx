@@ -12,7 +12,7 @@ const Services = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
       >
-        <div className="mx-6 md:mx:18 lg:mx-32 py-12">
+        <div className="mx-6 md:mx:18 lg:mx-28 py-5">
           <h1 className="font font-extrabold text-3xl font-sans mb-3 flex justify-center mx-auto">
             SERVICE WE OFFER
           </h1>
@@ -24,7 +24,7 @@ const Services = () => {
             deserunt hic quisquam assumenda?
           </p>
           <div className="">
-            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               {service_data.map((item) => (
                 <div
                   key={item.title}
@@ -32,7 +32,7 @@ const Services = () => {
                 >
                   <Image
                     src={item.img}
-                    width={100}
+                    width={80}
                     height={30}
                     alt="Image"
                     className="mx-auto rounded-xl border p-2"

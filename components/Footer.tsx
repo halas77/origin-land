@@ -5,9 +5,11 @@ import { FaFacebook, FaTiktok, FaInstagram, FaTelegram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <div className="border-t bg-blue-950 w-full mx-auto py-5 px-6 lg:px-16 grid lg:grid-cols-3 gap-4 text-gray-400">
+      <div className="bg-[#000300] w-full mx-auto py-5 px-6 lg:px-16 grid lg:grid-cols-3 gap-4 text-gray-400">
         <div>
-          <h1 className="w-full text-3xl font-bold text-slate-50">OriginLand</h1>
+          <h1 className="w-full text-3xl font-bold text-slate-50">
+            OriginLand
+          </h1>
           <p className="py-4 text-sm font-sans">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odit
             accusantium labore, perferendis alias, natus deserunt ab et rerum
@@ -66,16 +68,20 @@ const Footer = () => {
           <div>
             <h6 className="font-semibold text-gray-200">Contact</h6>
             <ul>
-              <li className="py-2 text-sm">Call Us: +251-922-119955</li>
+              <li className="py-2 text-sm">
+                Call Us: +251-922-119955 / +251912502288{" "}
+              </li>
               <li className="py-2 text-sm">
                 Email Us: info@originlandgeneraltradingplc.com
               </li>
-              <li className="py-2 text-sm">Address: Bambis, Addis Ababa, Ethiopia</li>
+              <li className="py-2 text-sm">
+                Address: Bambis, Addis Ababa, Ethiopia
+              </li>
             </ul>
           </div>
         </div>
       </div>
-      <div className="bg-blue-950 w-full flex justify-center items-center mx-auto pb-2">
+      <div className="bg-[#000300] w-full flex justify-center items-center mx-auto pb-2">
         <p className="text-gray-50 mx-auto">
           OriginLand 2023 | All rights reserved &copy;
         </p>

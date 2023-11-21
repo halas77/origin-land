@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="top-0 left-0 w-full fixed lg:z-[9999] py-3 md:px-8 px-4 bg-white border-b">
+      <header className="top-0 left-0 w-full fixed z-[9999] py-3 md:px-8 px-4 bg-white border-b opacity-80">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
             <div className="xl:pl-10">
@@ -57,7 +57,7 @@ const Navbar = () => {
               <div className="hidden lg:flex flex-col">
                 <div className="flex gap-3 justify-start items-center pb-1">
                   <HiPhone size={19} className="text-blue-900" />
-                  <p>+251-922-119955</p>
+                  <p>+251-922-119955 / +251-912-502288 </p>
                 </div>
                 <div className="flex gap-3 justify-center items-center pb-1">
                   <IoIosMail size={24} className="text-blue-900" />
@@ -81,7 +81,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-950 ease-in-out duration-500"
+            ? "z-[9999] fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-gray-950 ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >
