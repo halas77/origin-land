@@ -38,11 +38,11 @@ const Hero = () => {
           {slideImages.map((image, index) => (
             <div key={index}>
               <div
-                className="flex items-center justify-center bg-cover h-[550px] md:h-[700px]"
+                className="flex items-center justify-center bg-cover h-[550px] md:h-[710px]"
                 style={{ ...divStyle, backgroundImage: `url(${image.img})` }}
               >
-                  <div className="bg-gray-200 rounded flex flex-col p-5 max-w-xl absolute md:left-20 m-3 opacity-90 duration-500 ease-in-out">
-                    <h1 className="text-3xl md:text-5xl font-extrabold text-slate-950 pb-5">
+                  <div className="bg-gray-200 rounded flex flex-col p-5 max-w-lg absolute md:left-20 m-3 opacity-90 duration-500 ease-in-out">
+                    <h1 className="text-3xl md:text-4xl font-extrabold text-slate-950 pb-5">
                       {" "}
                       {image.title}{" "}
                     </h1>
