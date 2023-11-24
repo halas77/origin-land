@@ -41,8 +41,8 @@ export const service_data = [
 
 export const product_data = [
   {
-    img: "/spaice.jpg",
-    title: "Ethiopian Spaice",
+    img: "/spices.jpg",
+    title: "Ethiopian Spices",
     desc: "We do all the harvest procedures and actions to deliver you the highest quality farm products.",
   },
   {

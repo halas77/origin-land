@@ -10,10 +10,10 @@ const Product = () => {
       <div className="w-full text-black bg-gray-50 md:pb-32">
         <div className="mx-6 md:mx:18 lg:mx-32 py-8">
           <div className="md:flex justify-center gap-10">
-            <h1 className="text-slate-950 font-extrabold text-3xl font-sans mb-3 text-center uppercase">
+            <h1 className="text-slate-950 font-extrabold text-xl lg:text-3xl font-sans mb-3 text-center uppercase">
               Our Products
             </h1>
-            <p className="text-gray-700 max-w-2xl pb-5 text-center md:text-left">
+            <p className="text-gray-700 max-w-2xl pb-5 text-center md:text-left text-sm lg:text-md">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Molestiae ducimus molestias distinctio quis voluptatem enim,
               dolores, iusto impedit esse ipsum officiis aperiam obcaecati ad

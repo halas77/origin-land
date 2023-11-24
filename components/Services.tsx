@@ -13,10 +13,10 @@ const Services = () => {
         transition={{ duration: 1, delay: 0 }}
       >
         <div className="mx-6 md:mx:18 lg:mx-28 py-5">
-          <h1 className="font font-extrabold text-3xl font-sans mb-3 flex justify-center mx-auto">
+          <h1 className="font font-extrabold text-xl lg:text-3xl font-sans mb-3 flex justify-center mx-auto">
             SERVICE WE OFFER
           </h1>
-          <p className="text-slate-700 max-w-2xl pb-5 flex justify-center mx-auto text-center">
+          <p className="text-slate-700 max-w-2xl pb-5 flex justify-center mx-auto text-center text-sm lg:text-md">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
             ducimus molestias distinctio quis voluptatem enim, dolores, iusto
             impedit esse ipsum officiis aperiam obcaecati ad magni dolor nostrum
