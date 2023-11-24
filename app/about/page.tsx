@@ -103,25 +103,25 @@ const page = () => {
               </div>
 
               <div className="flex space-x-10 md:space-x-24 items-center justify-center lg:mt-14 max-lg:pt-8 max-sm:mx-auto">
-                <Link href="">
+                <Link href="/">
                   <FaFacebook
                     size={30}
                     className="text-gray-700 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="">
+                <Link href="/">
                   <FaInstagram
                     size={30}
                     className="text-gray-700 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="">
+                <Link href="/">
                   <FaTelegram
                     size={30}
                     className="text-gray-700 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="">
+                <Link href="/">
                   <FaTiktok
                     size={30}
                     className="text-gray-700 hover:text-gray-500"
