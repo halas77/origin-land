@@ -42,6 +42,37 @@ export const service_data = [
   },
 ];
 
+export const wegen_data = [
+  {
+    img: "/pool.png",
+    href:""
+  },
+  {
+    img: "/wota.png",
+    href:""
+
+  },
+  {
+    img: "/5Star.png",
+    href:""
+
+  },
+  {
+    img: "/tabor.png",
+    href:""
+
+  },
+  {
+    img: "/union.jpg",
+    href:""
+
+  },
+  {
+    img: "/union1.jpg",
+    href:""
+  },
+];
+
 // Products
 
 export const product_data = [

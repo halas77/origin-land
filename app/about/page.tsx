@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import { FaFacebook, FaTiktok, FaInstagram, FaTelegram } from "react-icons/fa";
+import Companies from "@/components/Companies";
 
 const solution = {
   text: {
@@ -81,27 +82,27 @@ const page = () => {
                 </h2>
               )}
               {solution.text.desc && (
-                <p className="text-body leading-relaxed mb-10 xl:mr-20">
+                <p className="text-body leading-relaxed mb-10 2xl:mr-20">
                   {solution.text.desc}
                 </p>
               )}
 
-              <div className="flex max-md:flex-col md:space-x-3 text-center items-start justify-center">
+              <div className="flex max-md:flex-col md:space-x-3 text-center items-center justify-center max-sm:mx-auto">
+                <Link
+                  href="/conact"
+                  className="text-[16px] max-md:mb-3 py-4 px-14 max-md:text-lg bg-blue-950 text-slate-50 font-bold font-sans rounded-xl duration-300 transition-all ease-in-out hover:bg-blue-900 border hover:border-blue-900 hover:shadow-lg inline-block relative top-0 hover:-top-1"
+                >
+                  Contact us
+                </Link>
                 <Link
                   href="/services"
                   className="text-[16px] max-md:my-3 py-4 px-14 border-2 border-blue-950 text-gray-900 max-md:text-lg font-bold font-sans rounded-xl duration-300 transition-all ease-in-out hover:bg-gray-50 hover:shadow-lg inline-block relative top-0 hover:-top-1"
                 >
                   Our services
                 </Link>
-                <Link
-                  href="/contact"
-                  className="text-[16px] max-md:mb-3 py-4 px-14 max-md:text-lg bg-blue-950 text-slate-50 font-bold font-sans rounded-xl duration-300 transition-all ease-in-out hover:bg-blue-900 border hover:border-blue-900 hover:shadow-lg inline-block relative top-0 hover:-top-1"
-                >
-                  Contact us
-                </Link>
               </div>
 
-              <div className="flex space-x-10 lg:space-x-24 items-center justify-center lg:mt-14 max-md:pt-8">
+              <div className="flex space-x-10 md:space-x-24 items-center justify-center lg:mt-14 max-lg:pt-8 max-sm:mx-auto">
                 <Link href="https://www.facebook.com/profile.php?id=61552083860876&mibextid=ZbWKwL">
                   <FaFacebook
                     size={30}
@@ -129,6 +130,7 @@ const page = () => {
               </div>
             </div>
           </div>
+          <Companies />
         </div>
       </motion.div>
     </section>
