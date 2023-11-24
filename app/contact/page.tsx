@@ -20,13 +20,15 @@ const Contact = () => {
           </h1>
           <div className="md:flex gap- justify-start items-start">
             <div className="lg:w-[65%] h-full pb-5 md:pb-0">
+              <Link href={'https://www.google.com/maps?ll=9.010082,38.769173&z=13&t=m&hl=en-US&gl=US&mapclient=embed&cid=17215207061957952222'}>
               <Image
-                src={"/hero1.jpg"}
+                src={"/originmap.png"}
                 width={750}
                 height={400}
                 alt="Image"
                 className="bg-cover rounded-lg"
               />
+              </Link>
             </div>
             <div className="">
               <div className="mb-5 bg-zinc-200 rounded-lg px-4 flex items-center h-28">

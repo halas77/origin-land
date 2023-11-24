@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="top-0 left-0 w-full fixed z-[9999] py-3 md:px-8 px-4 bg-white border-b opacity-80">
+      <header className="top-0 left-0 w-full fixed z-[9999] py-3 md:px-8 px-4 bg-white border-b opacity-90">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
             <div className="xl:pl-10">

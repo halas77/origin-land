@@ -32,7 +32,7 @@ const Services = () => {
                 >
                   <Image
                     src={item.img}
-                    width={80}
+                    width={120}
                     height={30}
                     alt="Image"
                     className="mx-auto rounded-xl border p-2"
