@@ -40,7 +40,7 @@ const Product = () => {
             aliquid fuga?
           </p>
           <button className="flex justify-center items-center border bg-blue-950 hover:bg-blue-800 rounded-lg px-8 py-3 text-slate-50 font-bold">
-            <Link href="/services/import">Learn more</Link>
+            <Link href="/services/export">Learn more</Link>
             <span className="ml-2 flex justify-center items-center">
               <FaArrowRight size={12} className="text-white" />
             </span>
@@ -94,7 +94,7 @@ const Product = () => {
             aliquid fuga?
           </p>
           <button className="flex justify-center items-center border bg-blue-950 hover:bg-blue-800 rounded-lg px-8 py-3 text-slate-50 font-bold">
-            <Link href="/services/import">Learn more</Link>
+            <Link href="/services/export">Learn more</Link>
             <span className="ml-2 flex justify-center items-center">
               <FaArrowRight size={12} className="text-white" />
             </span>

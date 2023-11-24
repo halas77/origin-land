@@ -103,25 +103,25 @@ const page = () => {
               </div>
 
               <div className="flex space-x-10 md:space-x-24 items-center justify-center lg:mt-14 max-lg:pt-8 max-sm:mx-auto">
-                <Link href="https://www.facebook.com/profile.php?id=61552083860876&mibextid=ZbWKwL">
+                <Link href="">
                   <FaFacebook
                     size={30}
                     className="text-gray-700 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="https://instagram.com/sabbath_construction?igshid=NGVhN2U2NjQ0Yg==">
+                <Link href="">
                   <FaInstagram
                     size={30}
                     className="text-gray-700 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="https://t.me/sabbathconstruction">
+                <Link href="">
                   <FaTelegram
                     size={30}
                     className="text-gray-700 hover:text-gray-500"
                   />
                 </Link>
-                <Link href="https://www.tiktok.com/@sabbath.construction?_r=1&_d=demc7a483bk1bd&sec_uid=MS4wLjABAAAAUxSjIqJohoda08ei67dgdL0RwrB4zIi4Y5foFJ3pKaulHmgKZFgHVqxKFqaxugzS&share_author_id=6880749743866414086&sharer_language=en&source=h5_m&u_code=demc79em6hdblh&timestamp=1699195467&user_id=6880749743866414086&sec_user_id=MS4wLjABAAAAUxSjIqJohoda08ei67dgdL0RwrB4zIi4Y5foFJ3pKaulHmgKZFgHVqxKFqaxugzS&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7285574843830896389&share_link_id=65898714-2e6c-4a09-a454-c41479448c06&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5">
+                <Link href="">
                   <FaTiktok
                     size={30}
                     className="text-gray-700 hover:text-gray-500"

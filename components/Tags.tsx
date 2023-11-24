@@ -28,7 +28,7 @@ const About = () => {
               chemical products import to Ethiopia.
             </p>
             <button className="hover:ml-4 flex items-center text-[16px] max-md:my-3 py-4 px-8 bg-blue-950 text-gray-50 max-md:text-lg font-bold font-sans rounded-lg duration-300 transition-all ease-in-out hover:bg-blue-900 hover:shadow-lg relative top-0">
-              <Link href="/">More about us</Link>
+              <Link href="/about">More about us</Link>
               <span className="ml-2 flex justify-center items-center">
                 <FaArrowRight size={12} />
               </span>
