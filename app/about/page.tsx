@@ -10,7 +10,7 @@ import Companies from "@/components/Companies";
 const solution = {
   text: {
     headingTitle: "ORIGINLAND IMPORT AND EXPORT ",
-    desc: "Originland General Trading P.L.C is registered in Ethiopia to engage in Agricultural products export mainly Green Arabica Coffee, Roasted Coffee, Minerals, oil seeds, pulses, spices industrial and chemical products import to Ethiopia. In addition to this, we plan to involve in manufacturing of various products, Logistics service, Warehousing services and Wholesale and Retail services in higher quality standards.ORIGINLAND GENERAL TRADING PLC is primarily engaged with the export of Green Arabica Coffee, Roasted Coffee, Cereals, Oil seeds, Pulses, Minerals and Various Spices to different destinations including Europe, Middle and Far East, Asia and North American Markets.",
+    desc: "Originland General Trading P.L.C is registered in Ethiopia to engage in Agricultural products export mainly Green Arabica Coffee, Roasted Coffee, Minerals, oil seeds, pulses, spices industrial and chemical products import to Ethiopia. In addition to this, we plan to involve in manufacturing of various products, Logistics service, Warehousing services and Wholesale and Retail services in higher quality standards.Originland Genneral Trading PLC is primarily engaged with the export of Green Arabica Coffee, Roasted Coffee, Cereals, Oil seeds, Pulses, Minerals and Various Spices to different destinations including Europe, Middle and Far East, Asia and North American Markets.",
   },
   images: {
     img1: "/about.jpg",
