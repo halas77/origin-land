@@ -12,11 +12,11 @@ const Companies = () => {
       <div className="flex gap-4 mt-5">
         {wegen_data.map((item, index) => (
           <Link
+            key={item.img}
             href={item.href}
             className="border p-2 flex justify-center items-center rounded-2xl"
           >
             <Image
-              key={item.img}
               src={item.img}
               width={100}
               height={50}
