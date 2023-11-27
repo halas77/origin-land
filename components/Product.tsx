@@ -21,17 +21,17 @@ const Product = () => {
           </p>
         </div>
       </div>
-      <div className="md:flex justify-center gap-14 items-center pb-16">
+      <div className="md:flex justify-center gap-14 items-center pb-16 mx-3">
         <Image
           src={"/coffee1.jpg"}
           width={400}
           height={200}
           alt="Image"
-          className="hidden md:flex rounded-md"
+          className="mb-2 md:mb-0 md:flex rounded-md"
         />
         <div>
-          <h2 className="text-blue-950 text-2xl font-extrabold">Ethiopian Coffee</h2>
-          <p className="max-w-xl py-3 pb-8">
+          <h2 className="text-blue-950 text-xl md:text-2xl font-extrabold">Ethiopian Coffee</h2>
+          <p className="max-w-xl py-3 pb-8 text-gray-700 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
             iusto voluptatibus? Error quae numquam pariatur ipsa officiis itaque
             quam eaque dolorum harum est sequi, esse, quod dignissimos? Aut
@@ -47,12 +47,12 @@ const Product = () => {
           </button>
         </div>
       </div>
-      <div className="flex justify-center gap-14 items-center pb-16">
+      <div className="flex flex-col-reverse md:flex-row justify-center gap-14 items-center pb-16 mx-3">
         <div>
-          <h2 className=" text-blue-950 text-2xl font-extrabold py-3">
+          <h2 className=" text-blue-950 text-xl md:text-2xl font-extrabold md:py-3">
             Ethiopian Spices
           </h2>
-          <p className="max-w-xl py-3 pb-8">
+          <p className="max-w-xl py-3 pb-8 text-gray-700">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
             iusto voluptatibus? Error quae numquam pariatur ipsa officiis itaque
             quam eaque dolorum harum est sequi, esse, quod dignissimos? Aut
@@ -72,20 +72,20 @@ const Product = () => {
           width={400}
           height={200}
           alt="Image"
-          className="hidden md:flex rounded-md"
+          className="md:flex rounded-md"
         />
       </div>
-      <div className="md:flex justify-center gap-14 items-center pb-16">
+      <div className="md:flex justify-center gap-14 items-center pb-16 mx-3">
         <Image
           src={"/pulse.jpg"}
           width={400}
           height={200}
           alt="Image"
-          className="hidden md:flex rounded-md"
+          className="mb-2 md:mb-0 md:flex rounded-md"
         />
         <div>
-          <h2 className="text-blue-950 text-2xl font-extrabold">Pulses</h2>
-          <p className="max-w-xl py-3 pb-8">
+          <h2 className="text-blue-950 text-xl md:text-2xl font-extrabold">Pulses</h2>
+          <p className="max-w-xl py-3 pb-8 text-gray-700">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
             iusto voluptatibus? Error quae numquam pariatur ipsa officiis itaque
             quam eaque dolorum harum est sequi, esse, quod dignissimos? Aut

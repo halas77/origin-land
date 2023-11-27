@@ -20,7 +20,7 @@ const page = () => {
             width={400}
             height={200}
             alt="Image"
-            className="hidden md:flex rounded-md"
+            className="mb-3 md:mb-0 md:flex rounded-md"
           />
           <div>
             <h2 className="text-blue-950 text-2xl font-extrabold">Import</h2>
@@ -40,7 +40,7 @@ const page = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center gap-14 items-center">
+        <div className="flex flex-col-reverse md:flex-row justify-center gap-14 items-center">
           <div>
             <h2 className=" text-blue-950 text-2xl font-extrabold py-3">
               Export
@@ -65,7 +65,7 @@ const page = () => {
             width={400}
             height={200}
             alt="Image"
-            className="hidden md:flex rounded-md"
+            className="mb-3 md:mb-3 md:flex rounded-md"
           />
         </div>
       </motion.div>
